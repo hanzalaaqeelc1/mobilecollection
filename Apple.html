@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mobile shop </title>
+  <link rel='stylesheet' href='css/style.css'>
+<script src='js/script.js'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+  <style>
+    #heading:hover {
+      scale: 1.2;
+      transition: 2s;
+    }
+
+    #image:hover {
+      scale: 1.2;
+      transition: 1s;
+
+    }
+  </style>
+
+  </head>
+
+  <body>
+
+    <!--header-->
+    <header style="background-image: url( img/bg.png); background-size: cover;">
+      <img src="img/web logo 6.png">
+    </header>
+    <hr>
+    <marquee style="background-color: rgb(6, 4, 4); height: 48px; "><h1 style="margin-top: 3px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(245, 243, 243);">Welcome To <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:rgb(228, 154, 16); ">MOBILE COLLECTION</span></h1></marquee>
+    <hr>
+    <!--nav-->
+    <nav id='menu'>
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+      <ul>
+        <li><a href="index.html.html">Home</a></li>
+        <li><a class='dropdown-arrow' href="OUR Brands.html">Brands</a>
+          <ul class='sub-menus'>
+            <li><a href="infinix .html">Infinix </a></li>
+            <li><a href="Oppo #.html">Oppo </a></li>
+            <li><a href="Tecno.html">Tecno </a></li>
+            <li><a href="Apple.html">Apple </a></li>
+            <li><a href="Sumsung .html">Sumsung</a></li>
+            <li><a href="RealMe.html">Realme </a></li>
+          </ul>
+        </li>
+        <li><a href="ABOUT US.html">About Us</a></li>
+        <li><a class='dropdown-arrow' href='http://'>Accessories</a>
+          <ul class='sub-menus'>
+            <li><a href="Chargers .html">Charger</a></li>
+            <li><a href="Adopter.html">Abtopter </a></li>
+            <li><a href="Phone cover .html">Phone cover </a></li>
+            <li><a href="Leads .html"> Leads  </a></li>
+          </ul>
+        </li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!--slider-->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 98px;">
+      <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+          <ul class="amazingslider-slides" style="display:none;">
+              <li><img src="slider image/ONLINE%20MOBILE%20MARKITING.jpg" alt="ONLINE MOBILE MARKITING"  title="ONLINE MOBILE MARKITING" />
+              </li>
+              <li><img src="slider image/oppo.jpg" alt="oppo"  title="oppo" data-description="A mobile phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area, as opposed to a fixed-location phone." />
+              </li>
+              <li><img src="slider image/realme.jpg" alt="realme"  title="realme" data-description="A mobile phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area, as opposed to a fixed-location phone." />
+              </li>
+              <li><img src="slider image/techno.jpg" alt="techno"  title="techno" data-description="A mobile phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area, as opposed to a fixed-location phone." />
+              </li>
+              <li><img src="slider image/vivo%20jpg.jpg" alt="vivo"  title="vivo" data-description="A mobile phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area, as opposed to a fixed-location phone." />
+              </li>
+          </ul>
+          <ul class="amazingslider-thumbnails" style="display:none;">
+              <li><img src="slider image/ONLINE%20MOBILE%20MARKITING-tn.jpg" alt="ONLINE MOBILE MARKITING" title="ONLINE MOBILE MARKITING" /></li>
+              <li><img src="slider image/oppo-tn.jpg" alt="oppo" title="oppo" /></li>
+              <li><img src="slider image/realme-tn.jpg" alt="realme" title="realme" /></li>
+              <li><img src="slider image/techno-tn.jpg" alt="techno" title="techno" /></li>
+              <li><img src="slider image/vivo%20jpg-tn.jpg" alt="vivo" title="vivo" /></li>
+          </ul>
+      <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Slider">Responsive jQuery Slider</a></div>
+      </div>
+  </div>
+    <!--section-->
+    <h1 id="heading" style=" text-align: center; font-size: 60px; transition: 2s;"> ---Apple <span
+        style="color: rgb(219, 164, 14);"> --- </span> </h1><br><br>
+    <div class="container-fluid">
+      <div class="row" style="text-align: center; ">
+        <div class="col-sm-4 col-md-4 col-lg-4"> 
+          <img src="img/apple 15.webp"style="height: 300px;width: 250px;"/>
+          <hr>
+          <h6>iphone  15 pro max <br><sup>Rs</sup> 3,90.63</h6 >
+            <a href="Order Now.html"><input style="border-radius: 25px; background-color: black; color: white;" type="button" value="Order now "></a>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4"> 
+          <img src="img/Apple 14.jpg" style="height: 300px;width: 250px;"/>
+          <hr>
+          <h6>iphone 14 pro max <br><sup>Rs</sup> 2, 88.199 </h6>
+         <<a href="Order Now.html"><input style="border-radius: 25px; background-color: black; color: white;" type="button" value="Order now "></a>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img src="img/apple 13.jpg"style="height: 300px;width: 250px;"/>
+          <hr>
+          <h6>iphone 13 pro max <br><sup>Rs</sup>1, 52.499</h6>
+          <a href="Order Now.html"><input style="border-radius: 25px; background-color: black; color: white;" type="button" value="Order now "></a>
+
+        </div>
+        <div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <img  src="img/apple112.webp"style="height: 300px;width: 250px;"/>
+          <hr>
+          <h6> iphone 12pro max <br><sup>Rs</sup> 95,999</h6>
+          <a href="Order Now.html"><input style="border-radius: 25px; background-color: black; color: white;" type="button" value="Order now "></a>
+        </div>
+          <div class="col-sm-4 col-md-4 col-lg-4"> 
+            <img src="img/apple 11.jpg"style="height: 300px;width: 250px;"/>
+            <hr>
+              <h6>iphone 11 pro max <br><sup>Rs</sup>99,499</h6>
+              <a href="Order Now.html"><input style="border-radius: 25px; background-color: black; color: white;" type="button" value="Order now "></a>
+          </div>
+          
+        
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <img src="img/apple x.jpg"style="height: 300px;width: 250px;"/>
+              <hr>
+              <h6>iphone x .<br><sup>Rs</sup>82,999</h6>
+              <a href="Order Now.html"><input style="border-radius: 25px; background-color: black; color: white;" type="button" value="Order now "></a>
+            </div>
+              </div>
+            </div>
+        <br>
+        <hr>
+        <!--Footer-->
+        <footer  style="background-image: url( img/bg.png); background-size: cover;color: aliceblue; padding-top: 20px;">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                <h5>About Mobile Store</h5>
+                <p> <a href="ABOUT US.html">About </a><br>
+                  <a href="Contact.html">Contact Us </a></p>
+
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                <h5> Product </h5>
+                <p> <a href="infinix .html"> infinix</a> <br>
+                 <a href="Tecno.html"> Tecno</a> <br>
+                 <a href="Oppo #.html">   oppo </a> <br>
+                 <a href="Apple.html">  Apple</a>   <br>
+                 <a href="Sumsung .html">    Sumsung </a>  <br>
+                 <a href="RealMe.html">  Realme </a>  </p>
+
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                <h5> Support </h5>
+                <p> Faq <br>
+                  Download <br>
+                  Carlcars <br>
+                  warrnty check <br> </p>
+
+
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                <h5> Follow us</h5>
+                <a href="https://www.facebook.com/"><img src="img/5305154_fb_facebook_facebook logo_icon.png" /></a>
+                <a href="https://x.com/twitt_login?lang=en"><img src="img/5279123_tweet_twitter_twitter logo_icon.png" /></a>
+               <a href="https://www.youtube.com/"> <img src="img/youyouyou.png" /></a>
+                <a href="https://www.instagram.com/"><img src="img/ininininininininin.png" /></a>
+              </div>
+              <div>
+
+              </div>
+              <p style="text-align: center; background-color: black; color: white;">Mobile Store &copy; Copy right All
+                Right Reserved 2024</p>
+        </footer>
+      </body>
+</html>
